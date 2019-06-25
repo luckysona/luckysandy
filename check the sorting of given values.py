@@ -1,8 +1,7 @@
 s1=int(input())
 s2=list(map(int,input().split()))
-s=s2
-s2.sort()
-if s2==s:
+a=sorted(s2)
+if s2==a:
     print("yes")
 else:
     print("no")
