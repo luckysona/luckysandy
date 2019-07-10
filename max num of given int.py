@@ -1,3 +1,4 @@
-s1=int(input())  
+s1=int(input())
 s2=list(map(int,input().split()))
-print(max(s2))
+a=max(s2)
+print(a)
